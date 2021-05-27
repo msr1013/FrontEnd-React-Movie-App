@@ -2,10 +2,10 @@ import React, { Component } from "react";
 
 const Like = () => {
   let classes = "fa fa-heart";
-  if (!this.props.liked) classes += "-o";
+  if (!props.liked) classes += "-o";
   return (
     <i
-      onClick={this.props.onToggle}
+      onClick={props.onToggle}
       style={{ cursor: "pointer" }}
       className={classes}
       aria-hidden="true"
